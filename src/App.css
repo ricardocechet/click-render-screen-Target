@@ -2,20 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +13,83 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#Area-click {
+  display: block;
+  min-height: 89vh;
+  background-color: #b5b5b5;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Alvo-click {
+  min-height: 89vh;
+
+}
+
+.ponto {
+  display: block;
+  background-color: #282c34;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  margin: -2px;
+
+  height: 5px;
+  width: 5px;
+  border-radius: 15px;
+}
+
+.pontoAlvo {
+  display: block;
+  background-color: #00ff48;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  margin: -2px;
+
+  height: 5px;
+  width: 5px;
+  border-radius: 15px;
+  z-index: 5;
+}
+
+.alvo0 {
+  display: block;
+  background-color: #0055ff;
+  position: absolute;
+  margin-left: -3px;
+  left: 100px;
+  top: 250px;
+  margin: -30px;
+
+  height: 70px;
+  width: 70px;
+  border-radius: 45px;
+
+}
+
+.alvo1 {
+  display: block;
+  background-color: #ff0000;
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  margin: -16px;
+
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+
+}
+
+.alvo2 {
+  display: block;
+  background-color: #e5ff00;
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  margin: 0px;
+
+  height: 8px;
+  width: 8px;
+  border-radius: 5px;
 }
